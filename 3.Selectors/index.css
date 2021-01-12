@@ -1,0 +1,68 @@
+/* full file selector */
+/* * {
+  background-color: lightcoral;
+  color: blueviolet;
+} */
+
+* {
+  text-align: center;
+}
+
+/* common selector */
+/* button,
+h1,
+h2 {
+  background-color: chartreuse;
+} */
+
+/* id selector */
+#login {
+  background-color: chartreuse;
+  color: blue;
+}
+
+button {
+  background-color: cornsilk;
+  color: crimson;
+}
+
+span {
+  color: aqua;
+}
+
+/* class selector */
+.tag {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* descendent selector */
+nav ul li {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* https://coolors.co/c4b1ae-bfb59e-b4ada3-cab7a2-858786*/
+
+span > a {
+  text-decoration: none;
+}
+
+span + h2 {
+  text-decoration: cornsilk underline solid;
+}
+
+input[type="text"] {
+  color: pink;
+}
+
+/* pseudo classes */
+span > a:hover {
+  text-decoration: underline;
+}
+
+span > a:active {
+  color: white;
+}
+
+.post:nth-child(2n) {
+  background-color: green;
+}
