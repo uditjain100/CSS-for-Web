@@ -10,6 +10,8 @@ h1 {
 h2 {
   text-align: center;
   color: bisque;
+  font-family: Arial, Helvetica, sans-serif, Impact, Haettenschweiler,
+    "Arial Narrow Bold", sans-serif;
   text-decoration: solid green underline;
 }
 p {
@@ -20,3 +22,5 @@ p {
   font-weight: 800;
   line-height: 2em;
 }
+
+/* https://www.cssfontstack.com/ */
