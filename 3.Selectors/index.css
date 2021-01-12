@@ -66,3 +66,11 @@ span > a:active {
 .post:nth-child(2n) {
   background-color: green;
 }
+
+p::selection {
+  background-color: orange;
+}
+
+/* for Specificity : inline styles > id selector > class selector > element selector */
+/* but if we use !important then it ignores specificity */
+/* https://specificity.keegan.st/ */
