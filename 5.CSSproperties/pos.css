@@ -1,0 +1,81 @@
+* {
+  text-align: center;
+}
+
+section > div {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+#static #one {
+  background-color: blueviolet;
+}
+#static #two {
+  position: static;
+  top: 500px;
+  background-color: aqua;
+}
+#static #three {
+  background-color: slategrey;
+}
+
+#relative #one {
+  background-color: blueviolet;
+}
+#relative #two {
+  position: relative;
+  right: 100px;
+  top: 100px;
+  background-color: aqua;
+}
+#relative #three {
+  position: relative;
+  right: 200px;
+  background-color: slategrey;
+}
+
+#absolute #one {
+  background-color: blueviolet;
+}
+#absolute #two {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  left: 100px;
+  background-color: aqua;
+}
+#absolute #three {
+  background-color: slategrey;
+}
+
+#absolute h2 {
+  margin-top: 120px;
+}
+#sticky #one {
+  background-color: blueviolet;
+}
+#sticky #two {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  background-color: aqua;
+}
+#sticky #three {
+  background-color: slategrey;
+}
+
+#fixed #one {
+  background-color: blueviolet;
+}
+#fixed #two {
+  background-color: aqua;
+}
+#fixed #three {
+  position: fixed;
+  top: 10px;
+  right: 100px;
+  opacity: 0.2;
+  background-color: slategrey;
+}
