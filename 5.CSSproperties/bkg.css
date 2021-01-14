@@ -1,0 +1,9 @@
+div {
+  width: 1220px;
+  margin: 50px auto;
+  color: white;
+  background-image: url("https://en.wikipedia.org/wiki/Pink_Floyd#/media/File:Pink_Floyd_-_all_members.jpg");
+  background-size: cover;
+  height: 500px;
+  background-color: aqua;
+}
