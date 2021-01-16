@@ -1,0 +1,59 @@
+* {
+}
+footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 900;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: thistle;
+}
+#home {
+  text-align: center;
+  margin: 2px auto;
+  flex-grow: 1;
+}
+
+div {
+  /* border: 2px tomato solid; */
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#signup {
+  flex-grow: 1;
+  text-align: center;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    color: tomato;
+    border: 5px violet solid;
+    border-radius: 10%;
+    margin: 50px auto;
+  }
+}
+@media (max-width: 500px) {
+  footer {
+    height: 100px;
+  }
+  footer div {
+    display: flex;
+    font-size: small;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

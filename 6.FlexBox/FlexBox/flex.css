@@ -1,0 +1,26 @@
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#container {
+  width: 1200px;
+  margin: 20px auto;
+  background-color: #003049;
+  /* height: 200px; */
+  border: 5px #003049 solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div {
+  width: 200px;
+  flex-basis: 200px;
+  height: 200px;
+}
+
+div:nth-child(1) {
+  flex-grow: 1;
+}
