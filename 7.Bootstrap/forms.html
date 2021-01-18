@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-1 text-primary mx-auto" style="width: 200px">Forms</h1>
+
+      <div class="row">
+        <div class="form-group col-md-6">
+          <label for="email" class="text-primary">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="password" class="text-primary">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="PassWord"
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="course" class="text-primary">Cousrse Applied</label>
+        <select class="form-control" name="course" id="course">
+          <option value="cse">CSE</option>
+          <option value="it">IT</option>
+          <option value="mae">MAE</option>
+          <option value="ece">ECE</option>
+          <option value="eee">EEE</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-md-6">
+          <label for="first-name" class="text-primary">First Name</label>
+          <input
+            type="first-name"
+            class="form-control"
+            id="first-name"
+            placeholder="First Name"
+          />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="last-name" class="text-primary">Last Name</label>
+          <input
+            type="last-name"
+            class="form-control"
+            id="last-name"
+            placeholder="Last Name"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-md-6">
+          <label for="address" class="text-primary">Address</label>
+          <input
+            class="form-control"
+            type="text"
+            id="address"
+            placeholder="Address"
+          />
+        </div>
+        <div class="form-group col-md-3 col-6">
+          <label for="state" class="text-primary">State</label>
+          <select class="form-control" name="state" id="state">
+            <option value="UP">UP</option>
+            <option value="ra">Rajasthan</option>
+            <option value="delhi">Delhi</option>
+            <option value="bihar">Bihar</option>
+            <option value="haryana">Haryana</option>
+          </select>
+        </div>
+        <div class="form-group col-md-3 col-6">
+          <label for="pin" class="text-primary">PinCode</label>
+          <input
+            class="form-control"
+            type="text"
+            id="pin"
+            placeholder="PinCode"
+          />
+        </div>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="check" />
+        <label for="check" class="form-check-label">Minority</label>
+      </div>
+
+      <button class="btn btn-primary">Register</button>
+
+      <!-- ******************************** -->
+    </div>
+  </body>
+</html>
